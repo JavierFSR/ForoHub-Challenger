@@ -55,22 +55,20 @@ Y todo esto únicamente con el acceso autorizado usando la forma STATELESS de au
 2. **Abre el archivo `Principal.java` en tu editor de código y ejecuta.**
 3. **Sigue las instrucciones en el archivo para realizar las busquedas.**
 
-## Tecnologias Utilizadas
-1. **Java 17: Lenguaje de programacion principal**
-2. **Intellij IDEA: Entorno de desarrollo**
-3. **Spring Boot**
-4. **MySQL**
-5. **Maven**
-
-##Dependencias Utilizadas
-- Lombok
-- Spring Web
-- Spring Boot DevTools
-- Spring Data JPA
-- Flyway Migration
-- MySQL Driver
-- Validation
-- Spring Security
+## Tecnologias Utilizadas Y Dependencias Utilizadas
+- **Java 17: Lenguaje de programacion principal**
+- **Intellij IDEA: Entorno de desarrollo**
+- **Spring Boot**
+- **MySQL**
+- **Maven**
+- **Lombok**
+- **Spring Web**
+- **Spring Boot DevTools**
+- **Spring Data JPA**
+- **Flyway Migration**
+- **MySQL Driver**
+- **Validation**
+- **Spring Security**
 
 ## Personas-Desarrolladores Del Proyecto
 **Francisco Javier Soto Ramírez.**
