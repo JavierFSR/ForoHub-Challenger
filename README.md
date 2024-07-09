@@ -6,7 +6,7 @@ Este es un proyecto propusto por Alura latam, para poner en practica lo aprendid
 
 Actualmente tenemos las siguientes servicios:
 
-Ofrece las opciones de CRUD para los tópicos del foro:
+Se implementaron las opciones de CRUD para los tópicos del foro:
 
 1. **Registro de tópicos y guardarlos en la base de datos topicos**
 2. **Listar los tópicos que están en la base de datos**
@@ -15,52 +15,39 @@ Ofrece las opciones de CRUD para los tópicos del foro:
 5. **Eliminar el tópico seleccionado de la base de datos**
    
 Y todo esto únicamente con el acceso autorizado usando la forma STATELESS de autenticación con JWT (JSON Web Token)
-## Caracteristicas de la aplicación y demostración:
 
-**Cuenta con 7 posibles opciones.**
+## Caracteristicas de la aplicación y demostración a través de insomnia:
 
-![image](https://github.com/JavierFSR/Literalura-AluraChallenger/assets/162364232/b3526780-25d2-4dee-b94b-efce2b50d25f)
+**POST http://localhost:8080/login (autenticación y autorización con el login y clave previamente incluido en la base de datos en la tabla usuarios). Se debe copiar el JWT que regresa el sistema y pegarlo a todas las otras actividades en la parte Auth/Bearer token.**
 
-**Opción 1:** 
-- En esta opción se debe ingresar el nombre del libro que se desea buscar.
+![image](https://github.com/JavierFSR/ForoHub-Challenger/assets/162364232/de4350e0-95c7-4846-a7b8-d8d2efff0abb)   ![image](https://github.com/JavierFSR/ForoHub-Challenger/assets/162364232/7d316cae-6c62-4bed-979b-852fe4ee93b4)
+
+
+**POST http://localhost:8080/topicos (Registro de un tópico)** 
+
+![image](https://github.com/JavierFSR/ForoHub-Challenger/assets/162364232/3a3e01a8-c39b-4d2b-8d70-4ffe6e965b98)
+
   
-![image](https://github.com/JavierFSR/Literalura-AluraChallenger/assets/162364232/0e8f3e29-a3f2-4acf-b012-02838da9e45b)
+**GET http://localhost:8080/topicos Listar los tópicos que están en la base de datos.**
 
-**Opción 2:**
-- En esta opción se muestra los libros que se han rejistrado en la base de datos.
+![image](https://github.com/JavierFSR/ForoHub-Challenger/assets/162364232/835e9ec3-adb5-4a05-a25d-d2baa53225be)
+
+
+**GET http://localhost:8080/topicos/{id} Mostrar los datos de tópico con "id" (se pone el id que se desea buscar )**
+
+![image](https://github.com/JavierFSR/ForoHub-Challenger/assets/162364232/5ba617d9-2751-460f-941c-5e22c5e72621)
+
   
-![image](https://github.com/JavierFSR/Literalura-AluraChallenger/assets/162364232/9673816e-24ec-4906-8cad-bf29c0550419)
-
-**Opción 3:**
-- En esta opción se muetran los autores de los libros que se han registrado en la base de datos.
+**PUT http://localhost:8080/topicos/{id} Modificar el tópico con "id" (se pone el id que se desea modificar y el atributo que se desea modificar)**
   
-![image](https://github.com/JavierFSR/Literalura-AluraChallenger/assets/162364232/73014cca-5bc3-47e9-b6c3-bbe50d53b144)
+![image](https://github.com/JavierFSR/ForoHub-Challenger/assets/162364232/b2d6f0e6-ab6a-4029-b04e-0bbf4f389eaa)
 
-**Opción 4:**
-- En esta opción se muestra los autores vivos en un determinado año, en esta opción se debe indicar el año en que se quiere buscar.
+
+**DEL http://localhost:8080/topicos/2 Eliminar el tópico con "id" de la base de datos, (se pone el id del topico que se desea eliminar)**
   
-![image](https://github.com/JavierFSR/Literalura-AluraChallenger/assets/162364232/f1784e22-3bde-49ef-86e3-cd18d3f482e5)
+![image](https://github.com/JavierFSR/ForoHub-Challenger/assets/162364232/4f9856e6-37d9-41a1-98a6-ca3b1fc068e0)
 
-**Opcion 5:**
-- En esta opción se buscan los libros por idioma.
-  
-![image](https://github.com/JavierFSR/Literalura-AluraChallenger/assets/162364232/81cd3ccb-a4d1-4024-8d61-c865204f0999)
 
-- Después se debe seleccionar el idioma que se deasea buscar.
-  
-![image](https://github.com/JavierFSR/Literalura-AluraChallenger/assets/162364232/b4433754-0c54-444a-ac4f-0d41ff6dc725)
-
-**Opción 6:**
-- En esta opción se muestra el Top 10 de libros
-
-  ![image](https://github.com/JavierFSR/Literalura-AluraChallenger/assets/162364232/ffe66b67-2ad9-4f56-a48e-7db7ab7ee2b4)
-
-  ![image](https://github.com/JavierFSR/Literalura-AluraChallenger/assets/162364232/af7eb48c-56aa-4b38-a537-3a2cb1192235)
-
-**Opción 7:**
-- En esta opción se muestra el libro más descargado y el menos descargado
-
-  ![image](https://github.com/JavierFSR/Literalura-AluraChallenger/assets/162364232/223d818f-9c41-40dc-8549-171663444d65)
 
   
 ## Acceso Al Proyecto
