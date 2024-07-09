@@ -4,8 +4,6 @@
 <p>Este proyecto consiste en crear una API REST para la gestion de un foro, esta aplicacion web nos permite crear y guardar topicos en una base de datos.
 Este es un proyecto propusto por Alura latam, para poner en practica lo aprendido en el transcurso de sus cursos.
 
-Actualmente tenemos las siguientes servicios:
-
 Se implementaron las opciones de CRUD para los tópicos del foro:
 
 1. **Registro de tópicos y guardarlos en la base de datos topicos**
@@ -40,7 +38,7 @@ Y todo esto únicamente con el acceso autorizado usando la forma STATELESS de au
   
 **PUT http://localhost:8080/topicos/{id} Modificar el tópico con "id" (se pone el id que se desea modificar y el atributo que se desea modificar)**
   
-![image](https://github.com/JavierFSR/ForoHub-Challenger/assets/162364232/b2434123-7968-4b0a-9f7c-72cab248cd8e)
+![image](https://github.com/JavierFSR/ForoHub-Challenger/assets/162364232/b943cdf9-03ca-4220-ac8c-9c926f0625ac)
 
 
 **DEL http://localhost:8080/topicos/2 Eliminar el tópico con "id" de la base de datos, (se pone el id del topico que se desea eliminar)**
@@ -52,8 +50,10 @@ Y todo esto únicamente con el acceso autorizado usando la forma STATELESS de au
   
 ## Acceso Al Proyecto
 1. **Copia este repositorio.**
-2. **Abre el archivo `Principal.java` en tu editor de código y ejecuta.**
-3. **Sigue las instrucciones en el archivo para realizar las busquedas.**
+2. **Abre el archivo `src.java` en tu editor de código y ejecuta.**
+3. **Sigue las instrucciones en el archivo para realizar las busquedas.**   
+4. **Descarque el programa de Mysql.**
+5. **Descargue el programa d Insomnia.**
 
 ## Tecnologias Utilizadas Y Dependencias Utilizadas
 - **Java 17: Lenguaje de programacion principal**
