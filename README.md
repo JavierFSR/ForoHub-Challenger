@@ -8,11 +8,12 @@ Actualmente tenemos las siguientes servicios:
 
 Ofrece las opciones de CRUD para los tópicos del foro:
 
-**Registro de tópicos y guardarlos en la base de datos topicos**
-**Listar los tópicos que están en la base de datos**
-**Mostrar los datos de un tópico seleccionado**
-**Modificar el tópico seleccionado**
-**Eliminar el tópico seleccionado de la base de datos**
+1. **Registro de tópicos y guardarlos en la base de datos topicos**
+2. **Listar los tópicos que están en la base de datos**
+3. **Mostrar los datos de un tópico seleccionado**
+4. **Modificar el tópico seleccionado**
+5. **Eliminar el tópico seleccionado de la base de datos**
+   
 Y todo esto únicamente con el acceso autorizado usando la forma STATELESS de autenticación con JWT (JSON Web Token)
 ## Caracteristicas de la aplicación y demostración:
 
