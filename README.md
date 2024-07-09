@@ -25,22 +25,22 @@ Y todo esto únicamente con el acceso autorizado usando la forma STATELESS de au
 
 **POST http://localhost:8080/topicos (Registro de un tópico)** 
 
-![image](https://github.com/JavierFSR/ForoHub-Challenger/assets/162364232/3a3e01a8-c39b-4d2b-8d70-4ffe6e965b98)
+![image](https://github.com/JavierFSR/ForoHub-Challenger/assets/162364232/09b78720-298e-4ae4-acc1-6b8278d75f15)
 
   
 **GET http://localhost:8080/topicos Listar los tópicos que están en la base de datos.**
 
-![image](https://github.com/JavierFSR/ForoHub-Challenger/assets/162364232/835e9ec3-adb5-4a05-a25d-d2baa53225be)
+![image](https://github.com/JavierFSR/ForoHub-Challenger/assets/162364232/db0886a7-3f01-468b-b962-e11ee6e86724)
 
 
 **GET http://localhost:8080/topicos/{id} Mostrar los datos de tópico con "id" (se pone el id que se desea buscar )**
 
-![image](https://github.com/JavierFSR/ForoHub-Challenger/assets/162364232/5ba617d9-2751-460f-941c-5e22c5e72621)
+![image](https://github.com/JavierFSR/ForoHub-Challenger/assets/162364232/ead6aa58-6677-4857-a52b-9269a4e987a0)
 
   
 **PUT http://localhost:8080/topicos/{id} Modificar el tópico con "id" (se pone el id que se desea modificar y el atributo que se desea modificar)**
   
-![image](https://github.com/JavierFSR/ForoHub-Challenger/assets/162364232/b2d6f0e6-ab6a-4029-b04e-0bbf4f389eaa)
+![image](https://github.com/JavierFSR/ForoHub-Challenger/assets/162364232/b2434123-7968-4b0a-9f7c-72cab248cd8e)
 
 
 **DEL http://localhost:8080/topicos/2 Eliminar el tópico con "id" de la base de datos, (se pone el id del topico que se desea eliminar)**
