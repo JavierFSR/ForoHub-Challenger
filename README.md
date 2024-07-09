@@ -6,15 +6,14 @@ Este es un proyecto propusto por Alura latam, para poner en practica lo aprendid
 
 Actualmente tenemos las siguientes servicios:
 
-1. **Buscar libros por título**
-2. **Mostrar libros registrados**
-3. **Mostrar autores registrados**
-4. **Autores vivos en determinado año**
-5. **Buscar libros por idioma**
-6. **Top 10 libros más descargados**
-7. **Libro más descargado y menos descargado** 
+Ofrece las opciones de CRUD para los tópicos del foro:
 
-
+**Registro de tópicos y guardarlos en la base de datos topicos**
+**Listar los tópicos que están en la base de datos**
+**Mostrar los datos de un tópico seleccionado**
+**Modificar el tópico seleccionado**
+**Eliminar el tópico seleccionado de la base de datos**
+Y todo esto únicamente con el acceso autorizado usando la forma STATELESS de autenticación con JWT (JSON Web Token)
 ## Caracteristicas de la aplicación y demostración:
 
 **Cuenta con 7 posibles opciones.**
@@ -76,7 +75,6 @@ Actualmente tenemos las siguientes servicios:
 5. **Maven**
 
 ##Dependencias Utilizadas
-- Swagger
 - Lombok
 - Spring Web
 - Spring Boot DevTools
